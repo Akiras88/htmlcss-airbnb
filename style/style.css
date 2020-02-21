@@ -21,6 +21,8 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* style per scritta */
 .contenuto {
   position: absolute;
   top: 50%;
@@ -28,8 +30,12 @@
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
+  padding: 200px;
+}
+.contenuto:hover {
+  color: yellow;
 }
 /* sfondo dei tre box */
 .box1 {
