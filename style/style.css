@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Ubuntu';
   }
+
 /* style background */
 .box {
   background-image: url('../img/tokyo.jpg');
@@ -37,6 +38,7 @@
 .contenuto:hover {
   color: yellow;
 }
+
 /* sfondo dei tre box */
 .box1 {
   background-image: url('../img/tokyo.jpg');
@@ -46,4 +48,14 @@
 }
 .box3 {
   background-image: url('../img/new.york.jpg');
+}
+
+/* style footer per ogni box */
+#fixed  {
+  position: fixed;
+  color: #fff;
+  font-size: 18px;
+  font-weight: lighter;
+  bottom: 0%;
+  right: 0vh;
 }
