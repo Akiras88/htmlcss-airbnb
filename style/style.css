@@ -50,12 +50,12 @@
   background-image: url('../img/new.york.jpg');
 }
 
-/* style footer per ogni box */
+/* style "footer" per ogni box */
 #fixed  {
   position: fixed;
   color: #fff;
   font-size: 18px;
   font-weight: lighter;
   bottom: 0%;
-  right: 0vh;
+  right: 2vh;
 }
